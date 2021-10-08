@@ -1,6 +1,8 @@
 # Oh-my-zsh datalad aliases plugin
 
-A useful set of aliases for [datalad]() for oh-my-zsh.
+This plugin provides some [oh-my-zsh](https://ohmyz.sh/) [aliases](#aliases) for
+a few useful [datalad](http://handbook.datalad.org/en/latest/index.html#)
+commands.
 
 # Installation
 
@@ -13,19 +15,19 @@ $ZSH_CUSTOM
         └── datalad.plugin.zsh
 ```
 
+This command should do the trick.
+
 ```
-cp datalad $ZSH_CUSTOM/plugins
+cp -rv datalad $ZSH_CUSTOM/plugins
 ```
 
-This plugin provides many [aliases](#aliases) and a few useful datalad commands.
-
-To use it, add `datalad` to the plugins array in your zshrc file:
+To then use it, add `datalad` to the plugins array in your `.zshrc` file:
 
 ```zsh
 plugins=(... datalad)
 ```
 
-For more information on installing plugin see:
+For more information on installing oh-my-zsh plugin see:
 https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#adding-a-new-plugin
 
 ## Aliases
