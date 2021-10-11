@@ -23,6 +23,8 @@ See [here](./datalad/README.md#installation)
 | dcrfbids | datalad create --force -c bids         |
 | dcrftext | datalad create --force -c text2git     |
 | dcrfyoda | datalad create --force -c yoda         |
+| ddrop    | datalad drop                           |
+| ddropr   | datalad drop -r                        |
 | dg       | datalad get                            |
 | dgr      | datalad get -r                         |
 | di       | datalad install                        |

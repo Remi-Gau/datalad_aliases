@@ -25,6 +25,9 @@ alias dcrfbids='datalad create --force -c bids'
 alias dcrftext='datalad create --force -c text2git'
 alias dcrfyoda='datalad create --force -c yoda'
 
+alias ddrop='datalad drop'
+alias ddropr='datalad drop -r'
+
 alias dg='datalad get'
 alias dgr='datalad get -r'
 
