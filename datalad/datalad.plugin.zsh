@@ -4,7 +4,6 @@
 # Functions
 #
 
-
 #
 # Aliases
 # (sorted alphabetically)
@@ -59,6 +58,7 @@ alias drpyoda='datalad run-procedure cfg_yoda'
 
 alias dsib='datalad siblings'
 alias dsiba='datalad siblings add'
+alias dsibao='datalad siblings add --name origin --url'
 alias dsibc='datalad siblings configure'
 alias dsibr='datalad siblings remove'
 
@@ -71,4 +71,3 @@ alias dulr='datalad unlock --recursive'
 
 alias dup='datalad update'
 alias dupm='datalad update --merge'
-
