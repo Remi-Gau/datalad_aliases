@@ -4,6 +4,12 @@ This plugin provides some [oh-my-zsh](https://ohmyz.sh/) [aliases](#aliases) for
 a few useful [datalad](http://handbook.datalad.org/en/latest/index.html#)
 commands.
 
+**Warning**
+
+As most oh-my-zsh themes will run a `git status` to update the prompt when entering a new folder, this can lead to a serious slowing down of even the simplest operation in your terminal when combining oh-my-zsh and datalad (especially with a lot of file changes or unlocked files).
+
+Sort of planning to see if this plug-in could adapt some of that behavior to avoid that type of side effects but this could take some time, so don't expect anything soon.
+
 # Installation
 
 See [here](./datalad/README.md#installation)
